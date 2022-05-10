@@ -17,6 +17,14 @@
 		<compileSource>11</compileSource>
 		<compileTarget>11</compileTarget>
 	</properties>
+
+
+	<pluginRepositories>
+    <pluginRepository>
+      <id>tycho-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+    </pluginRepository>
+</pluginRepositories>
 	
 	
 	<build>
@@ -82,7 +90,9 @@
 						<configuration>
 							<outputDirectory>target/justj</outputDirectory>
 							<overWriteIfNewer>true</overWriteIfNewer>
+							
 							<includeArtifactIds>org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64,org.eclipse.justj.openjdk.hotspot.jre.full.stripped.linux.x86_64</includeArtifactIds>
+
 						</configuration>
 					</execution>
 				</executions>
