@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="demotychomavencopy"
+      label="demotychomavencopy"
+      version="0.0.1.qualifier">
+
+
+         <requires>
+      <import feature="org.eclipse.justj.openjdk.hotspot.jre.full.stripped" version="11.0.14"/>
+      <import plugin="org.eclipse.justj.openjdk.hotspot.jre.full.stripped" version="11.0.14"/>
+   </requires>
+</feature>
